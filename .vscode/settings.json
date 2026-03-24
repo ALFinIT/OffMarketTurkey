@@ -8,6 +8,7 @@
             "approve": true,
             "matchCommandLine": true
         },
-        "type": true
+        "type": true,
+        "timeout": true
     }
 }
