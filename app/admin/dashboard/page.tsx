@@ -12,6 +12,8 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { useToast } from '@/components/ui/use-toast'
 import { Toaster } from '@/components/ui/toaster'
 
+export const dynamic = 'force-dynamic'
+
 const CACHE_KEY = 'omt-properties-cache'
 
 const mapSupabaseProperty = (

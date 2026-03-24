@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { propertiesAPI, enquiriesAPI, type Property } from '@/lib/supabase'
 import { useParams } from 'next/navigation'
 
+export const dynamic = 'force-dynamic'
+
 export default function PropertyDetailPage() {
   const params = useParams()
   const propertyId = params.id as string
